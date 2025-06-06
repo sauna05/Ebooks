@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Transforma tu vida</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(135deg, #121212, #1f1f1f);
+      color: #fff;
+      line-height: 1.6;
+      padding: 2rem;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.7rem;
+      margin-bottom: 1rem;
+      color: #fcd34d;
+    }
+
+    p.tagline {
+      font-size: 1.2rem;
+      color: #ccc;
+      margin-bottom: 2rem;
+    }
+
+    .highlight {
+      color: #4ade80;
+      font-weight: bold;
+    }
+
+    .ebook-card {
+      background: #262626;
+      border-radius: 20px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+      transition: transform 0.3s;
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+      text-align: left;
+      flex-wrap: wrap;
+    }
+
+    .ebook-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .ebook-card img {
+      width: 100%;
+      max-width: 250px;
+      height: auto;
+      border-radius: 12px;
+      flex-shrink: 0;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .ebook-content {
+      flex: 1;
+      min-width: 250px;
+    }
+
+    .ebook-card h2 {
+      font-size: 1.6rem;
+      margin-bottom: 0.5rem;
+      color: #facc15;
+    }
+
+    .ebook-card p {
+      font-size: 1rem;
+      color: #ddd;
+      margin-bottom: 1rem;
+    }
+
+    /* Autor */
+    .ebook-author {
+      font-size: 0.9rem;
+      font-style: italic;
+      color: #a0f0a0;
+      margin-bottom: 1rem;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.7rem 1.5rem;
+      background-color: #4ade80;
+      color: #000;
+      border-radius: 8px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #22c55e;
+    }
+
+    .combo {
+      border: 2px solid #4ade80;
+      padding: 2rem;
+      border-radius: 20px;
+      margin-top: 2rem;
+      background-color: #1a1a1a;
+    }
+
+    .combo h2 {
+      color: #4ade80;
+    }
+
+    .combo-thumbnails {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    .combo-thumbnails img {
+      width: 90px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s;
+    }
+
+    .combo-thumbnails img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .ebook-card {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .ebook-content {
+        text-align: center;
+      }
+
+      .ebook-card img {
+        max-width: 70%;
+        margin-bottom: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Invierte menos de <span class="highlight">$10 USD</span> y comienza a cambiar tu vida hoy</h1>
+    <p class="tagline">
+      Lo que gastas en dos cafés o un par de refrescos… podría darte claridad mental y libertad financiera. <br>
+      <span class="highlight">3 libros poderosos. 3 caminos. 1 nueva versión de ti.</span>
+    </p>
+
+    <div class="ebook-card">
+      <img src="img/Portada para Ebook Guía Marketing Digital Foto Azul.png" alt="Portada del ebook 1">
+      <div class="ebook-content">
+        <h2>💰 Cultura Financiera y Libertad Financiera</h2>
+        <p>¿Estás cansado de que el dinero se te escape? Aprende a controlarlo, multiplicarlo y trabajar por tu libertad, no por tu sueldo. Este libro es tu punto de partida para alcanzar estabilidad y tranquilidad financiera real.</p>
+        <p class="ebook-author">Autor:  Strongwell</p>
+        <a href="https://payhip.com/b/Dr5Wu" class="btn">Obtener por $6.90 USD</a>
+      </div>
+    </div>
+
+    <div class="ebook-card">
+      <img src="img/Blanco y Negro Desarrollo Personal Sombra Portada para Wattpad.png" alt="Portada del ebook 2">
+      <div class="ebook-content">
+        <h2>🧠 Desarrollo Personal (más vendido)</h2>
+        <p>¿Sabías que tu éxito no depende de tu talento, sino de tus hábitos? Aprende cómo reprogramar tu mente, vencer la procrastinación, desarrollar disciplina y construir una mentalidad de éxito. Este ebook es una guía transformadora.</p>
+        <p class="ebook-author">Autor:  Strongwell</p>
+        <a href="https://payhip.com/b/GjM4E" class="btn">Obtener por $4.90 USD</a>
+      </div>
+    </div>
+
+    <div class="ebook-card">
+      <img src="img/Ganar 100 dolares Ephemeral Delight Wattpad Book Cover.png" alt="Portada del ebook 3">
+      <div class="ebook-content">
+        <h2>🔥 Cómo ganar tus primeros $100 USD</h2>
+        <p>Este libro no es para cualquiera. Es para quienes están listos para salirse del molde, pensar diferente y construir algo propio. Descubre ideas simples, rentables y probadas para generar tus primeros ingresos digitales.</p>
+        <p class="ebook-author">Autor:  Strongwell</p>
+        <a href="https://tu-enlace-de-payhip.com/ebook3" class="btn">Obtener por $3.50 USD</a>
+      </div>
+    </div>
+
+    <div class="combo">
+      <div class="combo-thumbnails">
+        <img src="img/Portada para Ebook Guía Marketing Digital Foto Azul.png" alt="Ebook Finanzas">
+        <img src="img/Blanco y Negro Desarrollo Personal Sombra Portada para Wattpad.png" alt="Ebook Desarrollo Personal">
+        <img src="img/Ganar 100 dolares Ephemeral Delight Wattpad Book Cover.png" alt="Ebook Cómo ganar $100">
+      </div>
+      <h2>🎁 Llévate los 3 por solo $9.90 USD</h2>
+      <p>Ahorra dinero y obtén la trilogía completa de transformación personal y financiera. Ideal para quienes están listos para tomar el control de su vida en serio.</p>
+      <a href="https://payhip.com/b/YB8Ej" class="btn">Quiero el paquete completo</a>
+    </div>
+  </div>
+</body>
+</html>
