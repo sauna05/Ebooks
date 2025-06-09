@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -87,12 +88,21 @@
       margin-bottom: 1rem;
     }
 
-    /* Autor */
     .ebook-author {
       font-size: 0.9rem;
       font-style: italic;
       color: #a0f0a0;
+      margin-bottom: 0.5rem;
+    }
+
+    .price-info {
+      font-size: 1rem;
       margin-bottom: 1rem;
+    }
+
+    .price-info del {
+      color: #999;
+      margin-right: 0.5rem;
     }
 
     .btn {
@@ -142,7 +152,6 @@
       transform: scale(1.05);
     }
 
-    /* Responsive */
     @media (max-width: 768px) {
       .ebook-card {
         flex-direction: column;
@@ -160,21 +169,28 @@
     }
   </style>
 </head>
+
 <body>
   <div class="container">
-    <h1>Invierte menos de <span class="highlight">$10 USD</span> y comienza a cambiar tu vida hoy</h1>
+    <h1>Imagina invertir menos de <span class="highlight">$10 USD</span> en ti mismo… y transformar tu vida para siempre
+    </h1>
     <p class="tagline">
-      Lo que gastas en dos cafés o un par de refrescos… podría darte claridad mental y libertad financiera. <br>
-      <span class="highlight">3 libros poderosos. 3 caminos. 1 nueva versión de ti.</span>
+      Lo que hoy gastas en un café, una salida o una app sin sentido… <br>
+      Podría convertirse en <span class="highlight">claridad, disciplina y libertad financiera</span>.<br><br>
+      No es solo leer. Es accionar. <strong class="highlight">Empieza hoy y mañana estarás un paso más cerca de tu mejor
+        versión.</strong>
     </p>
 
     <div class="ebook-card">
       <img src="img/Portada para Ebook Guía Marketing Digital Foto Azul.png" alt="Portada del ebook 1">
       <div class="ebook-content">
         <h2>💰 Cultura Financiera y Libertad Financiera</h2>
-        <p>¿Estás cansado de que el dinero se te escape? Aprende a controlarlo, multiplicarlo y trabajar por tu libertad, no por tu sueldo. Este libro es tu punto de partida para alcanzar estabilidad y tranquilidad financiera real.</p>
-        <p class="ebook-author">Autor:  Strongwell</p>
-        <a href="https://payhip.com/b/PShKZ" class="btn">Obtener por $6.90 USD</a>
+        <p>¿Estás cansado de que el dinero se te escape? Aprende a controlarlo, multiplicarlo y trabajar por tu
+          libertad, no por tu sueldo. Este libro es tu punto de partida para alcanzar estabilidad y tranquilidad
+          financiera real.</p>
+        <p class="ebook-author">Autor: Strongwell</p>
+        <p class="price-info"><del>$5,9 USD</del> <strong class="highlight">$3,9 USD</strong></p>
+        <a href="https://payhip.com/b/PShKZ" class="btn">Obtener por $3,9 USD</a>
       </div>
     </div>
 
@@ -182,9 +198,12 @@
       <img src="img/Blanco y Negro Desarrollo Personal Sombra Portada para Wattpad.png" alt="Portada del ebook 2">
       <div class="ebook-content">
         <h2>🧠 Desarrollo Personal (más vendido)</h2>
-        <p>¿Sabías que tu éxito no depende de tu talento, sino de tus hábitos? Aprende cómo reprogramar tu mente, vencer la procrastinación, desarrollar disciplina y construir una mentalidad de éxito. Este ebook es una guía transformadora.</p>
-        <p class="ebook-author">Autor:  Strongwell</p>
-        <a href="https://payhip.com/b/GjM4E" class="btn">Obtener por $4.90 USD</a>
+        <p>¿Sabías que tu éxito no depende de tu talento, sino de tus hábitos? Aprende cómo reprogramar tu mente, vencer
+          la procrastinación, desarrollar disciplina y construir una mentalidad de éxito. Este ebook es una guía
+          transformadora.</p>
+        <p class="ebook-author">Autor: Strongwell</p>
+        <p class="price-info"><del>$4,9 USD</del> <strong class="highlight">$2,9 USD</strong></p>
+        <a href="https://payhip.com/b/GjM4E" class="btn">Obtener por $2,9 USD</a>
       </div>
     </div>
 
@@ -192,22 +211,36 @@
       <img src="img/Ganar 100 dolares Ephemeral Delight Wattpad Book Cover.png" alt="Portada del ebook 3">
       <div class="ebook-content">
         <h2>🔥 Cómo ganar tus primeros $100 USD</h2>
-        <p>Este libro no es para cualquiera. Es para quienes están listos para salirse del molde, pensar diferente y construir algo propio. Descubre ideas simples, rentables y probadas para generar tus primeros ingresos digitales.</p>
-        <p class="ebook-author">Autor:  Strongwell</p>
-        <a href="https://payhip.com/b/jNA5Y" class="btn">Obtener por $3.50 USD</a>
+        <p>Este libro no es para cualquiera. Es para quienes están listos para salirse del molde, pensar diferente y
+          construir algo propio. Descubre ideas simples, rentables y probadas para generar tus primeros ingresos
+          digitales.</p>
+        <p class="ebook-author">Autor: Strongwell</p>
+        <p class="price-info"><del>$4,3 USD</del> <strong class="highlight">$2,3 USD</strong></p>
+        <a href="https://payhip.com/b/jNA5Y" class="btn">Obtener por $2,3 USD</a>
       </div>
     </div>
 
     <div class="combo">
       <div class="combo-thumbnails">
         <img src="img/Portada para Ebook Guía Marketing Digital Foto Azul.png" alt="Ebook Finanzas">
-        <img src="img/Blanco y Negro Desarrollo Personal Sombra Portada para Wattpad.png" alt="Ebook Desarrollo Personal">
+        <img src="img/Blanco y Negro Desarrollo Personal Sombra Portada para Wattpad.png"
+          alt="Ebook Desarrollo Personal">
         <img src="img/Ganar 100 dolares Ephemeral Delight Wattpad Book Cover.png" alt="Ebook Cómo ganar $100">
       </div>
-      <h2>🎁 Llévate los 3 por solo $9.90 USD</h2>
-      <p>Ahorra dinero y obtén la trilogía completa de transformación personal y financiera. Ideal para quienes están listos para tomar el control de su vida en serio.</p>
+      <h2>🎁 Llévate los 3 por solo</h2>
+      <p class="price-info"><del>$9,9 USD</del> <strong class="highlight">$4,9 USD</strong></p>
+      <p>Ahorra dinero y obtén la trilogía completa de transformación personal y financiera. Ideal para quienes están
+        listos para tomar el control de su vida en serio.</p>
       <a href="https://payhip.com/b/O1nQh" class="btn">Quiero el paquete completo</a>
     </div>
   </div>
 </body>
+
 </html>
+
+
+
+
+
+
+
